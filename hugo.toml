@@ -1,0 +1,50 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Learn With Shantanu'
+theme = 'hugo-theme-relearn-main'
+
+
+sectionPagesMenu = 'main'
+
+
+[params]
+  [[params.themeVariant]]
+    auto = []
+    identifier = 'relearn-auto'
+    name = 'Relearn Light/Dark'
+
+  [[params.themeVariant]]
+    identifier = 'relearn-light'
+
+  [[params.themeVariant]]
+    identifier = 'relearn-dark'
+
+  [[params.themeVariant]]
+    auto = ['zen-light', 'zen-dark']
+    identifier = 'zen-auto'
+    name = 'Zen Light/Dark'
+
+  [[params.themeVariant]]
+    identifier = 'zen-light'
+
+  [[params.themeVariant]]
+    identifier = 'zen-dark'
+
+  [[params.themeVariant]]
+    identifier = 'neon'
+
+
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Products'
+    pageRef = '/products'
+    weight = 20
+  [[menus.main]]
+    name = 'Services'
+    pageRef = '/services'
+    weight = 30
