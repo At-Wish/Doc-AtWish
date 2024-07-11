@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apache Superset :: Learn With Shantanu</title>
-    <link>https://example.org/apache-superset/index.html</link>
-    <description>Installing Apache Superset </description>
+    <link>http://localhost:1313/apache-superset/index.html</link>
+    <description>A Modern Data Exploration and Visualization Platform Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Apache Superset is an open-source business intelligence and data visualization platform. It empowers users to explore, visualize, and share insights from their data, providing a user-friendly interface for crafting compelling dashboards and reports.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/apache-superset/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/apache-superset/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installation</title>
-      <link>https://example.org/apache-superset/installation/index.html</link>
+      <link>http://localhost:1313/apache-superset/installation/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/apache-superset/installation/index.html</guid>
-      <description>Installing Apache Superset </description>
+      <guid>http://localhost:1313/apache-superset/installation/index.html</guid>
+      <description>Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below&#xA;Docker based installation Python PiPy based installation Installation on Windows Using WSL (Windows subsystem for linux as windows is directly not supported) Kubernetes (This documentation still does not have anything for Kubernetes. Will try and add soon) </description>
     </item>
     <item>
       <title>Customization</title>
-      <link>https://example.org/apache-superset/customization/index.html</link>
+      <link>http://localhost:1313/apache-superset/customization/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/apache-superset/customization/index.html</guid>
-      <description>Installing Apache Superset </description>
+      <guid>http://localhost:1313/apache-superset/customization/index.html</guid>
+      <description>Superset Customization We will be configuring the following (more will be added as I explore):&#xA;Superset Customization Setting Up App Name Setting Up Logo Setting Up Favicon Icon Changing Loading GIF Setting Up Custom Color Theme Setting Up App Name Setting up the app name is easy and can be done by adding the following constant in the superset_config.py file:&#xA;APP_NAME = &#34;My Reporting Application&#34;Setting Up Logo To change the logo, place your logo in the /app/superset/superset_env/lib/python3.</description>
     </item>
     <item>
       <title>Configuration</title>
-      <link>https://example.org/apache-superset/configuration/index.html</link>
+      <link>http://localhost:1313/apache-superset/configuration/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/apache-superset/configuration/index.html</guid>
+      <guid>http://localhost:1313/apache-superset/configuration/index.html</guid>
       <description>Installing Apache Superset </description>
     </item>
     <item>
       <title>Embedding</title>
-      <link>https://example.org/apache-superset/embedding/index.html</link>
+      <link>http://localhost:1313/apache-superset/embedding/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/apache-superset/embedding/index.html</guid>
+      <guid>http://localhost:1313/apache-superset/embedding/index.html</guid>
       <description>Installing Apache Superset </description>
     </item>
     <item>
       <title>Alerts and Reports</title>
-      <link>https://example.org/apache-superset/alerts-and-reports/index.html</link>
+      <link>http://localhost:1313/apache-superset/alerts-and-reports/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/apache-superset/alerts-and-reports/index.html</guid>
+      <guid>http://localhost:1313/apache-superset/alerts-and-reports/index.html</guid>
       <description>Installing Apache Superset </description>
     </item>
   </channel>

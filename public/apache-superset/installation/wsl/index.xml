@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Configuration :: Learn With Shantanu</title>
-    <link>http://localhost:1313/apache-superset/configuration/index.html</link>
+    <title>WSL For windows :: Learn With Shantanu</title>
+    <link>http://localhost:1313/apache-superset/installation/wsl/index.html</link>
     <description>Installing Apache Superset </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/apache-superset/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/apache-superset/installation/wsl/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
