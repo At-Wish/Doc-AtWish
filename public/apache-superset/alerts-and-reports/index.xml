@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alerts and Reports :: Learn With Shantanu</title>
-    <link>http://localhost:1313/apache-superset/alerts-and-reports/index.html</link>
+    <link>https://docs.shantanukhond.me/apache-superset/alerts-and-reports/index.html</link>
     <description>Alerts and Reports With Superset Note&#xD;Chromium headless or firefox is necessary to get alerts and reports running as expected as well Celery Redis Should be installed and configured. We have documentation you can refer to [Chromium Configuration] and [apache-superset/configuration/celery-workers--beat/] Thank you!&#xD;To get Alerts and reports working. We need SMTP creds, and chrome or firefox should be installed. For this tutorial I am using chrome.&#xA;In Superset Config file i.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/apache-superset/alerts-and-reports/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.shantanukhond.me/apache-superset/alerts-and-reports/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

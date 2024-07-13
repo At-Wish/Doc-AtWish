@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker :: Learn With Shantanu</title>
-    <link>http://localhost:1313/apache-superset/installation/docker/index.html</link>
+    <link>https://docs.shantanukhond.me/apache-superset/installation/docker/index.html</link>
     <description>Creating and deploying Apache Superset’s customized docker image Youtube Video To Follow Steps For youtube To create custom docker image lets clone superset’s github Repo using following command. To reduce time and resources we will only clone till depth 1 and for this tutorial I am selecting 4.0 branch.&#xA;git clone --depth=1 -b 4.0 https://github.com/apache/superset.git Let’s move to directory&#xA;cd superset Create a dir I am calling it to_be_copied and create following directory structure in it</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/apache-superset/installation/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.shantanukhond.me/apache-superset/installation/docker/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

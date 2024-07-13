@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/apache-superset/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/apache-superset/installation/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/installation/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/apache-superset/customization/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/customization/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/apache-superset/configuration/celery-workers--beat/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/configuration/celery-workers--beat/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/apache-superset/configuration/chromium/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/configuration/chromium/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/apache-superset/configuration/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/configuration/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/apache-superset/installation/docker/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/installation/docker/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/apache-superset/installation/pipy/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/installation/pipy/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/apache-superset/installation/wsl/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/installation/wsl/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/apache-superset/embedding/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/embedding/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/apache-superset/alerts-and-reports/index.html</loc>
+    <loc>https://docs.shantanukhond.me/apache-superset/alerts-and-reports/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/index.html</loc>
+    <loc>https://docs.shantanukhond.me/categories/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/index.html</loc>
+    <loc>https://docs.shantanukhond.me/tags/index.html</loc>
   </url>
 </urlset>
