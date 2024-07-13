@@ -28,4 +28,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: public  # Change if your Hugo output directory is different
-          remote-dir: /docs.shantanukhond.me  # Change to your cPanel public directory
+          remote-dir: docs.shantanukhond.me  # Change to your cPanel public directory
