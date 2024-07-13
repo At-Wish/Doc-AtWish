@@ -12,7 +12,7 @@
       <link>http://localhost:1313/apache-superset/installation/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-superset/installation/index.html</guid>
-      <description>Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below&#xA;Docker based installation Python PiPy based installation Installation on Windows Using WSL (Windows subsystem for linux as windows is directly not supported) Kubernetes (This documentation still does not have anything for Kubernetes. Will try and add soon) </description>
+      <description>Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below&#xA;Docker based installation This includes installation of superset on docker container using docker compose. To run as it is you will need docker installed. If you want to customize docker image then you must have a strong compute with at-least 16GB of ram to build UI using npm.</description>
     </item>
     <item>
       <title>Customization</title>
@@ -26,7 +26,7 @@
       <link>http://localhost:1313/apache-superset/configuration/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-superset/configuration/index.html</guid>
-      <description>Installing Apache Superset </description>
+      <description>Configuring chromium for superset To be used for Alerts &amp; Reports, Thumbnails, etc. </description>
     </item>
     <item>
       <title>Embedding</title>
@@ -40,7 +40,7 @@
       <link>http://localhost:1313/apache-superset/alerts-and-reports/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-superset/alerts-and-reports/index.html</guid>
-      <description>Installing Apache Superset </description>
+      <description>Alerts and Reports With Superset Note&#xD;Chromium headless or firefox is necessary to get alerts and reports running as expected as well Celery Redis Should be installed and configured. We have documentation you can refer to [Chromium Configuration] and [apache-superset/configuration/celery-workers--beat/] Thank you!&#xD;To get Alerts and reports working. We need SMTP creds, and chrome or firefox should be installed. For this tutorial I am using chrome.&#xA;In Superset Config file i.</description>
     </item>
   </channel>
 </rss>

@@ -10,6 +10,12 @@
     <loc>http://localhost:1313/apache-superset/customization/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/apache-superset/configuration/celery-workers--beat/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/apache-superset/configuration/chromium/index.html</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/apache-superset/configuration/index.html</loc>
   </url>
   <url>

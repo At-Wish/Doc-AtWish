@@ -3,8 +3,20 @@ archetype = "home"
 title = ""
 +++
 
+
 ## 📊 Learn Reporting, SQL, Coding, and DataViz - Resources for YouTube Channel 
-Link to youtube channel where you can find youtube videos [![YouTube Channel](https://img.shields.io/badge/YouTube-Channel-red?logo=youtube)](https://www.youtube.com/@ShantanuKhond)
+
+
+
+Welcome to the world of engineering ⚙️! Here you will find unofficial documentation for the tools like Apache Superset that you can follow along with videos I created. The documentation is tested and written to make it easy to follow through.
+
+Link to youtube channel where you can find youtube videos [YouTube Channel](https://www.youtube.com/@ShantanuKhond)
+
+
+##### Currently we have documentation for following
+1. [Apache Superset]({{< ref "/apache-superset" >}})
+2. Valkey (Under development)
+   
 
 {{< notice warning >}}
 Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you! 
@@ -24,11 +36,6 @@ Please note this is not Official documentation and prepared as I am exploring th
 If you have suggestions or want any video added to the list, please fill out the form. Note that this is not restricted to Superset. If you want videos on ETL or reporting tools like Power BI, you can ask, but we will prioritize Superset until we complete the entire playlist.
 {{< /notice >}}
 
-&nbsp;
-
-### Currently we have documentation for following
-1. [Apache Superset]({{< ref "/apache-superset" >}})
-2. Valkey (Under development)
 
 
 &nbsp;

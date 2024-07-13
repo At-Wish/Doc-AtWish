@@ -5,26 +5,22 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.128.1">
     <meta name="generator" content="Relearn 6.0.0+tip">
-    <meta name="description" content="Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below
-Docker based installation This includes installation of superset on docker container using docker compose. To run as it is you will need docker installed. If you want to customize docker image then you must have a strong compute with at-least 16GB of ram to build UI using npm.">
+    <meta name="description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. ">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Installation :: Learn With Shantanu">
-    <meta name="twitter:description" content="Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below
-Docker based installation This includes installation of superset on docker container using docker compose. To run as it is you will need docker installed. If you want to customize docker image then you must have a strong compute with at-least 16GB of ram to build UI using npm.">
-    <meta property="og:url" content="http://localhost:1313/apache-superset/installation/index.html">
+    <meta name="twitter:title" content="Celery :: Learn With Shantanu">
+    <meta name="twitter:description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. ">
+    <meta property="og:url" content="http://localhost:1313/apache-superset/configuration/celery-workers--beat/index.html">
     <meta property="og:site_name" content="Learn With Shantanu">
-    <meta property="og:title" content="Installation :: Learn With Shantanu">
-    <meta property="og:description" content="Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below
-Docker based installation This includes installation of superset on docker container using docker compose. To run as it is you will need docker installed. If you want to customize docker image then you must have a strong compute with at-least 16GB of ram to build UI using npm.">
+    <meta property="og:title" content="Celery :: Learn With Shantanu">
+    <meta property="og:description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. ">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="website">
-    <meta itemprop="name" content="Installation :: Learn With Shantanu">
-    <meta itemprop="description" content="Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below
-Docker based installation This includes installation of superset on docker container using docker compose. To run as it is you will need docker installed. If you want to customize docker image then you must have a strong compute with at-least 16GB of ram to build UI using npm.">
-    <meta itemprop="wordCount" content="175">
-    <title>Installation :: Learn With Shantanu</title>
-    <link href="/apache-superset/installation/index.xml" rel="alternate" type="application/rss+xml" title="Installation :: Learn With Shantanu">
+    <meta itemprop="name" content="Celery :: Learn With Shantanu">
+    <meta itemprop="description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. ">
+    <meta itemprop="wordCount" content="15">
+    <title>Celery :: Learn With Shantanu</title>
+    <link href="/apache-superset/configuration/celery-workers--beat/index.xml" rel="alternate" type="application/rss+xml" title="Celery :: Learn With Shantanu">
     <link href="/css/fontawesome-all.min.css?1720838684" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1720838684" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css?1720838684" rel="stylesheet">
     <link href="/css/auto-complete.css?1720838684" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1720838684" rel="stylesheet"></noscript>
@@ -38,8 +34,8 @@ Docker based installation This includes installation of superset on docker conta
     <script src="/js/variant.js?1720838684"></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.relBasePath='..\/..';
-      window.relearn.relBaseUri='..\/..';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
       window.relearn.absBaseUri='http:\/\/localhost:1313';
       // variant stuff
       window.variants && variants.init( [ 'zen-light', 'zen-dark' ] );
@@ -56,7 +52,7 @@ Docker based installation This includes installation of superset on docker conta
      crossorigin="anonymous"></script>
 
   </head>
-  <body class="mobile-support html" data-url="/apache-superset/installation/index.html">
+  <body class="mobile-support html" data-url="/apache-superset/configuration/celery-workers--beat/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -69,7 +65,11 @@ Docker based installation This includes installation of superset on docker conta
               <div class="topbar-content">
                 <div class="topbar-content-wrapper"><nav class="TableOfContents">
   <ul>
-    <li><a href="#methods-to-setup-apache-superset">Methods to setup Apache Superset</a></li>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
   </ul>
 </nav>
                 </div>
@@ -78,12 +78,13 @@ Docker based installation This includes installation of superset on docker conta
           </div>
           <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
             itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/apache-superset/index.html"><span itemprop="name">Apache Superset</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
-            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Installation</span><meta itemprop="position" content="2"></li>
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/apache-superset/configuration/index.html"><span itemprop="name">Configuration</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Celery</span><meta itemprop="position" content="3"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/apache-superset/index.html" title="Apache Superset (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/apache-superset/configuration/index.html" title="Configuration (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/apache-superset/installation/docker/index.html" title="Docker (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/apache-superset/configuration/chromium/index.html" title="Chromium (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -97,33 +98,15 @@ Docker based installation This includes installation of superset on docker conta
         </div>
       </nav>
       <div id="R-main-overlay"></div>
-      <main id="R-body-inner" class="highlightable home" tabindex="-1">
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
         <div class="flex-block-wrapper">
-          <article class="home">
+          <article class="default">
             <header class="headline">
             </header>
 
-<h1 id="installation">Installation</h1>
+<h1 id="celery">Celery</h1>
 
-<h2 id="methods-to-setup-apache-superset">Methods to setup Apache Superset</h2>
-<p>To setup apache superset there are multiple ways. Please select appropriate way to set up from below</p>
-<ol>
-<li>
-<p><a href="http://localhost:1313/apache-superset/installation/docker/">Docker based installation</a>
-This includes installation of superset on docker container using docker compose. To run as it is you will need docker installed. If you want to customize docker image then you must have a strong compute with at-least 16GB of ram to build UI using npm.</p>
-</li>
-<li>
-<p><a href="http://localhost:1313/apache-superset/installation/pipy/">Python PiPy based installation</a>
-Python PiPy based installation is for those who want to run superset and manage complete infrastructure. You can use it for production. To set it up for production we will need a very robust architecture. Which we ave discussed in upcoming documentation</p>
-</li>
-<li>
-<p><a href="http://localhost:1313/apache-superset/installation/wsl/">Installation on Windows Using WSL (Windows subsystem for linux as windows is directly not supported)</a>
-WSL is for those who want superset to try explore do few things and do not need very concert reporting platform only for personal needs and have windows compute.</p>
-</li>
-<li>
-<p>Kubernetes (This documentation still does not have anything for Kubernetes. Will try and add soon)</p>
-</li>
-</ol>
+<h4 id="configuring-celery-workers-and-celery-beat-for-async-task-execution-and-scheduling-alerts-reports-etc">Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc.</h4>
 
             <footer class="footline">
             </footer>
@@ -176,13 +159,13 @@ WSL is for those who want superset to try explore do few things and do not need 
         <div id="R-topics">
           <ul class="enlarge morespace collapsible-menu">
           <li data-nav-id="/apache-superset/index.html" class="parent "><a class="padding" href="/apache-superset/index.html">Apache Superset</a><ul id="R-subsections-5fe88e2637c2b43904f9d92dbceb2217" class="morespace collapsible-menu">
-          <li data-nav-id="/apache-superset/installation/index.html" class="active parent alwaysopen"><a class="padding" href="/apache-superset/installation/index.html">Installation</a><ul id="R-subsections-556287441a9b6354ea7efee2c567d899" class="morespace collapsible-menu">
+          <li data-nav-id="/apache-superset/installation/index.html" class="alwaysopen"><a class="padding" href="/apache-superset/installation/index.html">Installation</a><ul id="R-subsections-556287441a9b6354ea7efee2c567d899" class="morespace collapsible-menu">
           <li data-nav-id="/apache-superset/installation/docker/index.html" class=""><a class="padding" href="/apache-superset/installation/docker/index.html">Docker</a></li>
           <li data-nav-id="/apache-superset/installation/pipy/index.html" class=""><a class="padding" href="/apache-superset/installation/pipy/index.html">PiPy</a></li>
           <li data-nav-id="/apache-superset/installation/wsl/index.html" class=""><a class="padding" href="/apache-superset/installation/wsl/index.html">WSL For windows</a></li></ul></li>
           <li data-nav-id="/apache-superset/customization/index.html" class=""><a class="padding" href="/apache-superset/customization/index.html">Customization</a></li>
-          <li data-nav-id="/apache-superset/configuration/index.html" class="alwaysopen"><a class="padding" href="/apache-superset/configuration/index.html">Configuration</a><ul id="R-subsections-adc0f41d98c43f07fdcc5b70b8a60eb8" class="morespace collapsible-menu">
-          <li data-nav-id="/apache-superset/configuration/celery-workers--beat/index.html" class=""><a class="padding" href="/apache-superset/configuration/celery-workers--beat/index.html">Celery</a></li>
+          <li data-nav-id="/apache-superset/configuration/index.html" class="parent alwaysopen"><a class="padding" href="/apache-superset/configuration/index.html">Configuration</a><ul id="R-subsections-adc0f41d98c43f07fdcc5b70b8a60eb8" class="morespace collapsible-menu">
+          <li data-nav-id="/apache-superset/configuration/celery-workers--beat/index.html" class="active"><a class="padding" href="/apache-superset/configuration/celery-workers--beat/index.html">Celery</a></li>
           <li data-nav-id="/apache-superset/configuration/chromium/index.html" class=""><a class="padding" href="/apache-superset/configuration/chromium/index.html">Chromium</a></li></ul></li>
           <li data-nav-id="/apache-superset/embedding/index.html" class=""><a class="padding" href="/apache-superset/embedding/index.html">Embedding</a></li>
           <li data-nav-id="/apache-superset/alerts-and-reports/index.html" class=""><a class="padding" href="/apache-superset/alerts-and-reports/index.html">Alerts and Reports</a></li></ul></li>
@@ -210,7 +193,7 @@ WSL is for those who want superset to try explore do few things and do not need 
                   <div class="control-style">
                     <label class="a11y-only" for="R-select-language">Language</label>
                     <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
-                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/apache-superset/installation/index.html" lang="en-us" selected></option>
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/apache-superset/configuration/celery-workers--beat/index.html" lang="en-us" selected></option>
                     </select>
                   </div>
                   <div class="clear"></div>

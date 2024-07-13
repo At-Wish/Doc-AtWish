@@ -3,7 +3,7 @@
   <channel>
     <title>WSL For windows :: Learn With Shantanu</title>
     <link>http://localhost:1313/apache-superset/installation/wsl/index.html</link>
-    <description>Installing Apache Superset </description>
+    <description>Installing Apache Superset Youtube Video To Follow Once WSL is installed please follow steps written in PiPy installation documentation</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/apache-superset/installation/wsl/index.xml" rel="self" type="application/rss+xml" />

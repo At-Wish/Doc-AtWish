@@ -24,8 +24,8 @@ block = true # default is false
 [menu]
   [[menu.shortcuts]]
     identifier = 'ds'
-    name = "<i class='fa-fw fab fa-github'></i> GitHub repo"
-    url = 'https://github.com/McShelby/hugo-theme-relearn'
+    name = "<i class='fa-fw fab fa-github'></i> GitHub Profile"
+    url = 'https://github.com/shantanukhond'
     weight = 10
 
   [[menu.shortcuts]]

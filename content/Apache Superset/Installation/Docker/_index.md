@@ -7,6 +7,10 @@ weight = 3
 
 ## Creating and deploying Apache Superset's customized docker image 
 
+#### Youtube Video To Follow
+{{< youtube "https://youtu.be/tZrqtqXbsxc" >}}
+
+#### Steps For youtube
 1. To create custom docker image lets clone superset's github Repo using following command. To reduce   time and resources we will only clone till depth 1 and for this tutorial I am selecting 4.0 branch.
 
 
@@ -28,7 +32,7 @@ weight = 3
 
 4. Open `Dockerfile` find `WORKDIR /app` for me it is on line 65 (In future it might change). Add following code below it
     ```
-
+    COPY --chown=superset:superset to_be_copied_into_assets /app/superset/static/assets
     ```
 
 5. Creating docker image using following command

@@ -3,7 +3,7 @@
   <channel>
     <title>Installation :: Learn With Shantanu</title>
     <link>http://localhost:1313/apache-superset/installation/index.html</link>
-    <description>Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below&#xA;Docker based installation Python PiPy based installation Installation on Windows Using WSL (Windows subsystem for linux as windows is directly not supported) Kubernetes (This documentation still does not have anything for Kubernetes. Will try and add soon) </description>
+    <description>Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below&#xA;Docker based installation This includes installation of superset on docker container using docker compose. To run as it is you will need docker installed. If you want to customize docker image then you must have a strong compute with at-least 16GB of ram to build UI using npm.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/apache-superset/installation/index.xml" rel="self" type="application/rss+xml" />
@@ -12,7 +12,7 @@
       <link>http://localhost:1313/apache-superset/installation/docker/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-superset/installation/docker/index.html</guid>
-      <description>Creating and deploying Apache Superset’s customized docker image To create custom docker image lets clone superset’s github Repo using following command. To reduce time and resources we will only clone till depth 1 and for this tutorial I am selecting 4.0 branch.&#xA;git clone --depth=1 -b 4.0 https://github.com/apache/superset.git Let’s move to directory&#xA;cd superset Create a dir I am calling it to_be_copied and create following directory structure in it&#xA;- to_be_copied_into_assets&#xD;- {your_project_}images&#xD;- logo.</description>
+      <description>Creating and deploying Apache Superset’s customized docker image Youtube Video To Follow Steps For youtube To create custom docker image lets clone superset’s github Repo using following command. To reduce time and resources we will only clone till depth 1 and for this tutorial I am selecting 4.0 branch.&#xA;git clone --depth=1 -b 4.0 https://github.com/apache/superset.git Let’s move to directory&#xA;cd superset Create a dir I am calling it to_be_copied and create following directory structure in it</description>
     </item>
     <item>
       <title>PiPy</title>
@@ -26,7 +26,7 @@
       <link>http://localhost:1313/apache-superset/installation/wsl/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-superset/installation/wsl/index.html</guid>
-      <description>Installing Apache Superset </description>
+      <description>Installing Apache Superset Youtube Video To Follow Once WSL is installed please follow steps written in PiPy installation documentation</description>
     </item>
   </channel>
 </rss>

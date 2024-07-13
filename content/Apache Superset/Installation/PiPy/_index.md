@@ -5,7 +5,7 @@ weight = 3
 +++
 
 ## SUPERSET PRODUCTION INSTALLATION
-
+{{< youtube "https://youtu.be/IP14ArymP08" >}}
 
 #### Set up environment
 

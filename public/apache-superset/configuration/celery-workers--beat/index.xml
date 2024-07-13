@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Celery :: Learn With Shantanu</title>
+    <link>http://localhost:1313/apache-superset/configuration/celery-workers--beat/index.html</link>
+    <description>Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/apache-superset/configuration/celery-workers--beat/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

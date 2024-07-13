@@ -5,4 +5,4 @@ weight = 3
 +++
 
 
-## Installing Apache Superset
+## Configuring chromium for superset To be used for Alerts & Reports, Thumbnails, etc.
