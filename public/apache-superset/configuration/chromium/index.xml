@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chromium :: Learn With Shantanu</title>
-    <link>https://docs.shantanukhond.me/apache-superset/configuration/chromium/index.html</link>
+    <link>http://localhost:1313/apache-superset/configuration/chromium/index.html</link>
     <description>To install headless Chrome on Ubuntu, you can use the following steps: Install Dependencies:&#xA;sudo apt update&#xD;sudo apt install -y wget apt-transport-https ca-certificates curl gnupg Download and Install Google Chrome:&#xA;First, download the Google Chrome package and add the Google Chrome repository to your system:&#xA;wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb&#xD;sudo dpkg -i google-chrome-stable_current_amd64.debIf you encounter any dependency issues, you can run the following command to resolve them:&#xA;sudo apt -f install Install the ChromeDriver:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://docs.shantanukhond.me/apache-superset/configuration/chromium/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/apache-superset/configuration/chromium/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

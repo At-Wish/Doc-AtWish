@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.128.1">
     <meta name="generator" content="Relearn 6.0.0+tip">
-    <meta name="description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. ">
+    <meta name="description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. Python and Python-venv (Version 3.10) Postgres (Metadata db) Redis Everything I am installing on single vm as creating multiple will cost a lot but you should be able to understand.
+Process is going to be same as normal installation we saw with few changes. Let’s start.
+sudo apt update -y &amp; sudo apt upgrade -yInstalling Redis sudo apt install redis-serverInstalling Apache Superset Install dependencies">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Celery :: Learn With Shantanu">
-    <meta name="twitter:description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. ">
-    <meta property="og:url" content="https://docs.shantanukhond.me/apache-superset/configuration/celery-workers--beat/index.html">
+    <meta name="twitter:description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. Python and Python-venv (Version 3.10) Postgres (Metadata db) Redis Everything I am installing on single vm as creating multiple will cost a lot but you should be able to understand.
+Process is going to be same as normal installation we saw with few changes. Let’s start.
+sudo apt update -y &amp; sudo apt upgrade -yInstalling Redis sudo apt install redis-serverInstalling Apache Superset Install dependencies">
+    <meta property="og:url" content="http://localhost:1313/apache-superset/configuration/celery-workers--beat/index.html">
     <meta property="og:site_name" content="Learn With Shantanu">
     <meta property="og:title" content="Celery :: Learn With Shantanu">
-    <meta property="og:description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. ">
+    <meta property="og:description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. Python and Python-venv (Version 3.10) Postgres (Metadata db) Redis Everything I am installing on single vm as creating multiple will cost a lot but you should be able to understand.
+Process is going to be same as normal installation we saw with few changes. Let’s start.
+sudo apt update -y &amp; sudo apt upgrade -yInstalling Redis sudo apt install redis-serverInstalling Apache Superset Install dependencies">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="website">
     <meta itemprop="name" content="Celery :: Learn With Shantanu">
-    <meta itemprop="description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. ">
-    <meta itemprop="wordCount" content="15">
+    <meta itemprop="description" content="Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. Python and Python-venv (Version 3.10) Postgres (Metadata db) Redis Everything I am installing on single vm as creating multiple will cost a lot but you should be able to understand.
+Process is going to be same as normal installation we saw with few changes. Let’s start.
+sudo apt update -y &amp; sudo apt upgrade -yInstalling Redis sudo apt install redis-serverInstalling Apache Superset Install dependencies">
+    <meta itemprop="wordCount" content="945">
     <title>Celery :: Learn With Shantanu</title>
     <link href="/apache-superset/configuration/celery-workers--beat/index.xml" rel="alternate" type="application/rss+xml" title="Celery :: Learn With Shantanu">
-    <link href="/css/fontawesome-all.min.css?1720844362" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1720844362" rel="stylesheet"></noscript>
-    <link href="/css/nucleus.css?1720844362" rel="stylesheet">
-    <link href="/css/auto-complete.css?1720844362" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1720844362" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1720844362" rel="stylesheet">
-    <link href="/css/fonts.css?1720844362" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1720844362" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1720844362" rel="stylesheet">
-    <link href="/css/theme-zen-light.css?1720844362" rel="stylesheet" id="R-variant-style">
-    <link href="/css/chroma-relearn-light.css?1720844362" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/css/variant.css?1720844362" rel="stylesheet">
-    <link href="/css/print.css?1720844362" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1720844362"></script>
+    <link href="/css/fontawesome-all.min.css?1721822587" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1721822587" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1721822587" rel="stylesheet">
+    <link href="/css/auto-complete.css?1721822587" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1721822587" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1721822587" rel="stylesheet">
+    <link href="/css/fonts.css?1721822587" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1721822587" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1721822587" rel="stylesheet">
+    <link href="/css/theme-zen-light.css?1721822587" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1721822587" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1721822587" rel="stylesheet">
+    <link href="/css/print.css?1721822587" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1721822587"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/docs.shantanukhond.me';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
       // variant stuff
       window.variants && variants.init( [ 'zen-light', 'zen-dark' ] );
       // translations
@@ -68,6 +76,9 @@
     <li>
       <ul>
         <li></li>
+        <li><a href="#installing-redis">Installing Redis</a></li>
+        <li><a href="#installing-apache-superset">Installing Apache Superset</a></li>
+        <li><a href="#yey-your-enterprise-server-is-up-and-running-you-can-test-it-by-restarting-the-server">YEY! Your Enterprise Server is Up and running you can test it by restarting the server&hellip;</a></li>
       </ul>
     </li>
   </ul>
@@ -107,6 +118,216 @@
 <h1 id="celery">Celery</h1>
 
 <h4 id="configuring-celery-workers-and-celery-beat-for-async-task-execution-and-scheduling-alerts-reports-etc">Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc.</h4>
+<ol>
+<li>Python and Python-venv (Version 3.10)</li>
+<li>Postgres (Metadata db)</li>
+<li>Redis</li>
+</ol>
+<p>Everything I am installing on single vm as creating multiple will cost a lot but you should be able to understand.</p>
+<p>Process is going to be same as normal installation we saw with few changes. Let&rsquo;s start.</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>sudo apt update -y &amp; sudo apt upgrade -y</code></pre></div><h3 id="installing-redis">Installing Redis</h3>
+<div class="highlight wrap-code"><pre tabindex="0"><code>sudo apt install redis-server</code></pre></div><h3 id="installing-apache-superset">Installing Apache Superset</h3>
+<ul>
+<li>
+<p>Install dependencies</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>sudo apt-get install build-essential libssl-dev libffi-dev python3.10-dev python3.10-pip libsasl2-dev libldap2-dev default-libmysqlclient-dev python3.10-venv libpq-dev </code></pre></div><p>If 3.10 gives error then you can add repo using</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>sudo add-apt-repository ppa:savoury1/python
+sudo apt update</code></pre></div></li>
+<li>
+<p>Create app directory for superset and dependencies</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>sudo mkdir /app
+sudo chown user /app
+cd /app</code></pre></div></li>
+<li>
+<p>Create python environment</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>mkdir superset
+cd superset
+python3 -m venv superset_env
+. superset_env/bin/activate
+pip install --upgrade setuptools pip</code></pre></div></li>
+<li>
+<p>Install python dependencies</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>pip install pillow
+pip install apache-superset
+pip install psycopg2
+pip install gunicorn
+pip install celery
+pip install gevent</code></pre></div></li>
+<li>
+<p>Create superset config file and set environment variable</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>touch superset_config.py
+export SUPERSET_CONFIG_PATH=/app/superset/superset_config.py</code></pre></div></li>
+<li>
+<p>Edit <code>superset_config.py</code> using <code>nano superset_config.py</code> and put following code in it</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code># Superset specific config
+ROW_LIMIT = 5000
+
+# Flask App Builder configuration
+# Your App secret key will be used for securely signing the session cookie
+# and encrypting sensitive information on the database
+# Make sure you are changing this key for your deployment with a strong key.
+# Alternatively you can set it with `SUPERSET_SECRET_KEY` environment variable.
+# You MUST set this for production environments or the server will not refuse
+# to start and you will see an error in the logs accordingly.
+SECRET_KEY = &#39;YOUR_OWN_RANDOM_GENERATED_SECRET_KEY&#39;
+
+# The SQLAlchemy connection string to your database backend
+# This connection defines the path to the database that stores your
+# superset metadata (slices, connections, tables, dashboards, ...).
+# Note that the connection information to connect to the datasources
+# you want to explore are managed directly in the web UI
+# The check_same_thread=false property ensures the sqlite client does not attempt
+# to enforce single-threaded access, which may be problematic in some edge cases
+SQLALCHEMY_DATABASE_URI = &#39;sqlite:////app/superset/superset.db?check_same_thread=false&#39;
+
+TALISMAN_ENABLED = False
+WTF_CSRF_ENABLED = False
+
+# Set this API key to enable Mapbox visualizations
+MAPBOX_API_KEY = &#39;&#39;
+
+
+# Celery Redis configuration for async query execution
+class CeleryConfig(object):
+broker_url = &#34;redis://localhost:6379/0&#34;
+imports = (
+    &#34;superset.sql_lab&#34;,
+    &#34;superset.tasks.scheduler&#34;,
+)
+result_backend = &#34;redis://localhost:6379/0&#34;
+worker_prefetch_multiplier = 10
+task_acks_late = True
+task_annotations = {
+    &#34;sql_lab.get_sql_results&#34;: {
+        &#34;rate_limit&#34;: &#34;100/s&#34;,
+    },
+}
+
+CELERY_CONFIG = CeleryConfig
+
+# On Redis
+from flask_caching.backends.rediscache import RedisCache
+RESULTS_BACKEND = RedisCache(
+    host=&#39;localhost&#39;, port=6379, key_prefix=&#39;superset_results&#39;)</code></pre></div></li>
+<li>
+<p>Please replace YOUR_OWN_RANDOM_GENERATED_SECRET_KEY in above file with the code returned by following command</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>openssl rand -base64 42</code></pre></div></li>
+<li>
+<p>Once Done let us inititlize database with following commands</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code># Create an admin user in your metadata database (use `admin` as username to be able to load the examples)
+export FLASK_APP=superset
+
+superset db upgrade
+
+superset fab create-admin
+
+# As this is going to be production I have commented load example part but if you need you can run this
+# superset load_examples
+
+# Create default roles and permissions
+superset init</code></pre></div></li>
+<li>
+<p>Now Our environment is ready lets try running it..
+To run superset I have created a sh script that you can run in order to run the server. To create create script using following command.</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>nano run_superset.sh</code></pre></div><p>and paste following code in it.</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>#!/bin/bash
+export SUPERSET_CONFIG_PATH=/app/superset/superset_config.py
+. /app/superset/superset_env/bin/activate
+gunicorn \
+    -w 10 \
+    -k gevent \
+    --timeout 120 \
+    -b  0.0.0.0:8088 \
+    --limit-request-line 0 \
+    --limit-request-field_size 0 \
+    --statsd-host localhost:8125 \
+    &#34;superset.app:create_app()&#34;</code></pre></div></li>
+<li>
+<p>In order to run it we need to grant it run permission. To do that lets run following command.</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>chmod +x run_superset.sh</code></pre></div></li>
+<li>
+<p>Lets run and test if it works?</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>sh run_superset.sh</code></pre></div></li>
+<li>
+<p>check if you are able to login using admin creds on server-ip-address:8088. If everything is working fine then we can go ahead and create service that will start automatically as soon as server starts or in case it reboots.</p>
+</li>
+</ul>
+<blockquote>
+<p>[!NOTE]<br>
+Now if you try to connect with database and async query is enabled it will just run indefinitely as celery worker is not running. We will create celery once superset service is created</p>
+</blockquote>
+<p>Lets create service called superset using following command</p>
+<pre><code>sudo nano /etc/systemd/system/superset.service
+</code></pre>
+<p>paste following code in it</p>
+<pre><code>[Unit]
+Description = Apache Superset Webserver Daemon
+After = network.target
+
+[Service]
+PIDFile = /app/superset/superset-webserver.PIDFile
+Environment=SUPERSET_HOME=/app/superset
+Environment=PYTHONPATH=/app/superset
+WorkingDirectory = /app/superset
+limit-re&gt;
+ExecStart = /app/superset/run_superset.sh
+ExecStop = /bin/kill -s TERM $MAINPID
+
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+once copied run following command to enable and start service
+
+systemctl daemon-reload
+sudo systemctl enable superset.service
+sudo systemctl start superset.service
+</code></pre>
+<h4 id="run-and-test-celery">Run and Test Celery</h4>
+<ul>
+<li>
+<p>To run celery I have created a sh script that you can run in order to run the server. To create create script using following command.</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>nano run_celery.sh</code></pre></div><p>and paste following code in it.</p>
+<p>#!/bin/bash
+export SUPERSET_CONFIG_PATH=/app/superset/superset_config.py
+. /app/superset/superset_env/bin/activate</p>
+<p>celery &ndash;app=superset.tasks.celery_app:app worker &ndash;pool=prefork -O fair -c 4 &amp;
+celery &ndash;app=superset.tasks.celery_app:app beat</p>
+<p>In above script <code>-c 4</code> represents how many worker processes should run in a worker.</p>
+</li>
+<li>
+<p>In order to run it we need to grant it run permission. To do that lets run following command.</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>chmod +x run_celery.sh</code></pre></div></li>
+<li>
+<p>Lets run and test if it works?</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>sh run_celery.sh</code></pre></div></li>
+<li>
+<p>Create Celery service edit/create file <code>sudo nano /etc/systemd/system/celery.service</code> and paste following code in it</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>[Unit]
+Description = Apache Celery worker Daemon
+After = network.target
+
+[Service]
+PIDFile = /app/superset/celery.PIDFile
+Environment=SUPERSET_HOME=/app/superset
+Environment=PYTHONPATH=/app/superset
+WorkingDirectory = /app/superset
+ExecStart = /app/superset/run_celery.sh
+ExecStop = /bin/kill -s TERM $MAINPID
+
+
+[Install]
+WantedBy=multi-user.target</code></pre></div><p>once copied run following command to enable and start service</p>
+<div class="highlight wrap-code"><pre tabindex="0"><code>systemctl daemon-reload
+sudo systemctl enable celery.service
+sudo systemctl start celery.service</code></pre></div></li>
+</ul>
+<h3 id="yey-your-enterprise-server-is-up-and-running-you-can-test-it-by-restarting-the-server">YEY! Your Enterprise Server is Up and running you can test it by restarting the server&hellip;</h3>
+<p>If you have any issues you can contact me on <a href="mailto://contact@shantanukhond.me" rel="external" target="_blank">contact@shantanukhond.me</a> .</p>
+<p><a href="https://www.buymeacoffee.com/shantanukhond" rel="external" target="_blank"><a href="#R-image-e177ab0212dcf7ab44f2c870aee6634b" class="lightbox-link"><img alt="&ldquo;Buy Me A Coffee&rdquo;" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e177ab0212dcf7ab44f2c870aee6634b"><img alt="&ldquo;Buy Me A Coffee&rdquo;" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png"></a></a></p>
 
             <footer class="footline">
             </footer>
@@ -142,12 +363,12 @@
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/js/auto-complete.js?1720844362" defer></script>
-        <script src="/js/lunr/lunr.min.js?1720844362" defer></script>
-        <script src="/js/lunr/lunr.stemmer.support.min.js?1720844362" defer></script>
-        <script src="/js/lunr/lunr.multi.min.js?1720844362" defer></script>
-        <script src="/js/lunr/lunr.en.min.js?1720844362" defer></script>
-        <script src="/js/search.js?1720844362" defer></script>
+        <script src="/js/auto-complete.js?1721822587" defer></script>
+        <script src="/js/lunr/lunr.min.js?1721822587" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1721822587" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1721822587" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1721822587" defer></script>
+        <script src="/js/search.js?1721822587" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation homelinks">
         <ul>
@@ -167,7 +388,9 @@
           <li data-nav-id="/apache-superset/configuration/index.html" class="parent alwaysopen"><a class="padding" href="/apache-superset/configuration/index.html">Configuration</a><ul id="R-subsections-adc0f41d98c43f07fdcc5b70b8a60eb8" class="morespace collapsible-menu">
           <li data-nav-id="/apache-superset/configuration/celery-workers--beat/index.html" class="active"><a class="padding" href="/apache-superset/configuration/celery-workers--beat/index.html">Celery</a></li>
           <li data-nav-id="/apache-superset/configuration/chromium/index.html" class=""><a class="padding" href="/apache-superset/configuration/chromium/index.html">Chromium</a></li></ul></li>
-          <li data-nav-id="/apache-superset/embedding/index.html" class=""><a class="padding" href="/apache-superset/embedding/index.html">Embedding</a></li>
+          <li data-nav-id="/apache-superset/embedding/index.html" class="alwaysopen"><a class="padding" href="/apache-superset/embedding/index.html">Embedding</a><ul id="R-subsections-b8080b8cee06c40809accdb695fa22e7" class="morespace collapsible-menu">
+          <li data-nav-id="/apache-superset/embedding/js-frameworks/index.html" class=""><a class="padding" href="/apache-superset/embedding/js-frameworks/index.html">JS Framework</a></li>
+          <li data-nav-id="/apache-superset/embedding/iframe-framework/index.html" class=""><a class="padding" href="/apache-superset/embedding/iframe-framework/index.html">Public With iframe</a></li></ul></li>
           <li data-nav-id="/apache-superset/alerts-and-reports/index.html" class=""><a class="padding" href="/apache-superset/alerts-and-reports/index.html">Alerts and Reports</a></li></ul></li>
           </ul>
         </div>
@@ -232,8 +455,8 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1720844362" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1720844362" defer></script>
-    <script src="/js/theme.js?1720844362" defer></script>
+    <script src="/js/clipboard.min.js?1721822587" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1721822587" defer></script>
+    <script src="/js/theme.js?1721822587" defer></script>
   </body>
 </html>

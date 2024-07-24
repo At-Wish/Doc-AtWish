@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration :: Learn With Shantanu</title>
-    <link>https://docs.shantanukhond.me/apache-superset/configuration/index.html</link>
+    <link>http://localhost:1313/apache-superset/configuration/index.html</link>
     <description>Configuring chromium for superset To be used for Alerts &amp; Reports, Thumbnails, etc. </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://docs.shantanukhond.me/apache-superset/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/apache-superset/configuration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Celery</title>
-      <link>https://docs.shantanukhond.me/apache-superset/configuration/celery-workers--beat/index.html</link>
+      <link>http://localhost:1313/apache-superset/configuration/celery-workers--beat/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://docs.shantanukhond.me/apache-superset/configuration/celery-workers--beat/index.html</guid>
-      <description>Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. </description>
+      <guid>http://localhost:1313/apache-superset/configuration/celery-workers--beat/index.html</guid>
+      <description>Configuring celery workers and celery beat for async task execution and scheduling alerts, reports, etc. Python and Python-venv (Version 3.10) Postgres (Metadata db) Redis Everything I am installing on single vm as creating multiple will cost a lot but you should be able to understand.&#xA;Process is going to be same as normal installation we saw with few changes. Let’s start.&#xA;sudo apt update -y &amp; sudo apt upgrade -yInstalling Redis sudo apt install redis-serverInstalling Apache Superset Install dependencies</description>
     </item>
     <item>
       <title>Chromium</title>
-      <link>https://docs.shantanukhond.me/apache-superset/configuration/chromium/index.html</link>
+      <link>http://localhost:1313/apache-superset/configuration/chromium/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://docs.shantanukhond.me/apache-superset/configuration/chromium/index.html</guid>
+      <guid>http://localhost:1313/apache-superset/configuration/chromium/index.html</guid>
       <description>To install headless Chrome on Ubuntu, you can use the following steps: Install Dependencies:&#xA;sudo apt update&#xD;sudo apt install -y wget apt-transport-https ca-certificates curl gnupg Download and Install Google Chrome:&#xA;First, download the Google Chrome package and add the Google Chrome repository to your system:&#xA;wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb&#xD;sudo dpkg -i google-chrome-stable_current_amd64.debIf you encounter any dependency issues, you can run the following command to resolve them:&#xA;sudo apt -f install Install the ChromeDriver:</description>
     </item>
   </channel>
