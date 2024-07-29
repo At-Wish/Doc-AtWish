@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Apache Superset :: Learn With Shantanu</title>
+    <title>Apache Superset :: Documentation At Your Wish</title>
     <link>http://localhost:1313/apache-superset/index.html</link>
     <description>A Modern Data Exploration and Visualization Platform Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Apache Superset is an open-source business intelligence and data visualization platform. It empowers users to explore, visualize, and share insights from their data, providing a user-friendly interface for crafting compelling dashboards and reports.</description>
     <generator>Hugo</generator>

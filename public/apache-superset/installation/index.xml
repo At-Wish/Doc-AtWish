@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Installation :: Learn With Shantanu</title>
+    <title>Installation :: Documentation At Your Wish</title>
     <link>http://localhost:1313/apache-superset/installation/index.html</link>
     <description>Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below&#xA;Docker based installation This includes installation of superset on docker container using docker compose. To run as it is you will need docker installed. If you want to customize docker image then you must have a strong compute with at-least 16GB of ram to build UI using npm.</description>
     <generator>Hugo</generator>

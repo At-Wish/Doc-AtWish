@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Learn With Shantanu</title>
+    <title>Documentation At Your Wish</title>
     <link>http://localhost:1313/index.html</link>
     <description>📊 Learn Reporting, SQL, Coding, and DataViz - Resources for YouTube Channel Welcome to the world of engineering ⚙️! Here you will find unofficial documentation for the tools like Apache Superset that you can follow along with videos I created. The documentation is tested and written to make it easy to follow through.&#xA;Link to youtube channel where you can find youtube videos YouTube Channel&#xA;Currently we have documentation for following Apache Superset Valkey (Under development) Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools.</description>
     <generator>Hugo</generator>

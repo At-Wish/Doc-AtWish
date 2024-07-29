@@ -1,6 +1,6 @@
 baseURL = 'https://docs.shantanukhond.me/'
 languageCode = 'en-us'
-title = 'Learn With Shantanu'
+title = 'Documentation At Your Wish'
 theme = ['hugo-theme-relearn-main','hugo-notice']
 
 
@@ -29,22 +29,17 @@ block = true # default is false
     weight = 10
 
   [[menu.shortcuts]]
-    name = "<i class='fa-fw fas fa-camera'></i> Showcases"
-    url = 'showcase/'
+    name = "<i class='fa-fw fas fa-play'></i> YouTube"
+    url = 'https://youtube.com/@shantanuKhond/'
     weight = 11
 
   [[menu.shortcuts]]
     identifier = 'hugodoc'
-    name = "<i class='fa-fw fas fa-bookmark'></i> Hugo Documentation"
-    url = 'https://gohugo.io/'
+    name = "<i class='fa-fw fas fa-usd'></i> Sponsor Us"
+    url = 'https://www.buymeacoffee.com/shantanukhond'
     weight = 20
 
   [[menu.shortcuts]]
-    name = "<i class='fa-fw fas fa-bullhorn'></i> Credits"
-    url = 'more/credits/'
+    name = "<i class='fa-fw fas fa-bullhorn'></i> Privacy Policy"
+    url = '/privacy-policy.pdf'
     weight = 30
-
-  [[menu.shortcuts]]
-    name = "<i class='fa-fw fas fa-tags'></i> Tags"
-    url = 'tags/'
-    weight = 40

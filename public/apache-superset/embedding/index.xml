@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Embedding :: Learn With Shantanu</title>
+    <title>Embedding :: Documentation At Your Wish</title>
     <link>http://localhost:1313/apache-superset/embedding/index.html</link>
     <description>Installing Apache Superset </description>
     <generator>Hugo</generator>

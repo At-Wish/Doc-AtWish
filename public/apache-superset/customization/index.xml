@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Customization :: Learn With Shantanu</title>
+    <title>Customization :: Documentation At Your Wish</title>
     <link>http://localhost:1313/apache-superset/customization/index.html</link>
     <description>Superset Customization We will be configuring the following (more will be added as I explore):&#xA;Superset Customization Setting Up App Name Setting Up Logo Setting Up Favicon Icon Changing Loading GIF Setting Up Custom Color Theme Setting Up App Name Setting up the app name is easy and can be done by adding the following constant in the superset_config.py file:&#xA;APP_NAME = &#34;My Reporting Application&#34;Setting Up Logo To change the logo, place your logo in the /app/superset/superset_env/lib/python3.</description>
     <generator>Hugo</generator>
