@@ -34,6 +34,9 @@
     <loc>http://localhost:1313/apache-superset/embedding/js-frameworks/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/apache-superset/embedding/iframe-framework/index.html</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/apache-superset/alerts-and-reports/index.html</loc>
   </url>
   <url>

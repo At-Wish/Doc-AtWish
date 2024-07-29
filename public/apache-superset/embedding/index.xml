@@ -8,11 +8,18 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/apache-superset/embedding/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Embedding</title>
+      <title>JS Framework</title>
       <link>http://localhost:1313/apache-superset/embedding/js-frameworks/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-superset/embedding/js-frameworks/index.html</guid>
       <description>Embedding Superset Dashboard into private Website with authentication and RLS Superset Documentation for Public User&#xA;Steps to embed Install CORS dependency using pip install apache-superset[cors] Make Sure you are in Superset Python Environment.&#xA;Go to superset config file i.e. superset_config.py and add following code.&#xA;#Feature Flag FEATURE_FLAGS = { &#34;EMBEDDED_SUPERSET&#34;: True&#xD;}&#xD;# CORS Enabling ENABLE_CORS = True CORS_OPTIONS = { &#34;supports_credentials&#34;: True, &#34;allow_headers&#34;: &#34;*&#34;, &#34;expose_headers&#34;: &#34;*&#34;, &#34;resources&#34;: &#34;*&#34;, &#34;origins&#34;: [&#34;http://localhost:4200&#34;,&#34;http://localhost:3000&#34;] //4200 for angular , 3000 for react }&#xD;# Dashboard embedding GUEST_ROLE_NAME = &#34;Gamma&#34; GUEST_TOKEN_JWT_SECRET = &#34;PASTE_GENERATED_SECRET_HERE&#34; GUEST_TOKEN_JWT_ALGO = &#34;HS256&#34; GUEST_TOKEN_HEADER_NAME = &#34;X-GuestToken&#34; GUEST_TOKEN_JWT_EXP_SECONDS = 300 # 5 minutesThis will enable feature flag for embedding also cors be enabled with above configuration</description>
+    </item>
+    <item>
+      <title>Public With iframe</title>
+      <link>http://localhost:1313/apache-superset/embedding/iframe-framework/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/apache-superset/embedding/iframe-framework/index.html</guid>
+      <description>Embedding Superset Dashboard into Public Website using Simple iFrame To enable public access, add the following to your superset_config.py file:&#xA;PUBLIC_ROLE_LIKE = &#34;Gamma&#34;OR&#xA;PUBLIC_ROLE_LIKE_GAMMA = TrueBoth of these variables will create a Public role with the same permissions as the Gamma role. However, if this doesn’t work, you might need to create it manually.&#xA;To copy any other role’s permissions, change the code as follows:&#xA;PUBLIC_ROLE_LIKE = &#34;ENTER_YOUR_ROLE_NAME_HERE&#34;Once added, restart Superset.</description>
     </item>
   </channel>
 </rss>
