@@ -41,5 +41,5 @@ block = true # default is false
 
   [[menu.shortcuts]]
     name = "<i class='fa-fw fas fa-bullhorn'></i> Privacy Policy"
-    url = '/privacy-policy.pdf'
+    url = '/privacy-policy.html'
     weight = 30
