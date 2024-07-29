@@ -26,7 +26,7 @@ sudo apt update -y & sudo apt upgrade -y
 ```
 sudo apt install redis-server
 ```
-
+{{< in-line-ad >}}
 
 ### Installing Apache Superset
 * Install dependencies
@@ -132,7 +132,7 @@ sudo apt install redis-server
         host='localhost', port=6379, key_prefix='superset_results')
 
     ```
-
+{{< in-line-ad >}}
 
 * Please replace YOUR_OWN_RANDOM_GENERATED_SECRET_KEY in above file with the code returned by following command
     ```
@@ -264,7 +264,7 @@ paste following code in it
     ```
     sh run_celery.sh
     ```
-
+{{< in-line-ad >}}
 * Create Celery service edit/create file `sudo nano /etc/systemd/system/celery.service` and paste following code in it
 
     ```

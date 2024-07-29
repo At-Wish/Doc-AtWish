@@ -20,6 +20,8 @@ sudo apt update -y & sudo apt upgrade -y
 sudo apt-get install build-essential libssl-dev libffi-dev python3-dev python3-pip libsasl2-dev libldap2-dev default-libmysqlclient-dev python3.10-venv
 ``` 
 
+{{< in-line-ad >}}
+
 * Create app directory for superset and dependencies 
 
 ```
@@ -44,7 +46,7 @@ pip install --upgrade setuptools pip
 pip install pillow
 pip install apache-superset
 ```
-
+{{< in-line-ad >}}
 
 * Create superset config file and set environment variable 
 
@@ -174,6 +176,9 @@ ExecStop = /bin/kill -s TERM $MAINPID
 WantedBy=multi-user.target
 
 ```
+{{< in-line-ad >}}
+
+
 
 once copied run following command to enable and start service
 

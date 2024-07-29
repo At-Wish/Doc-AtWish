@@ -20,6 +20,7 @@ OR
 ```python
 PUBLIC_ROLE_LIKE_GAMMA = True
 ```
+{{< in-line-ad >}}
 
 Both of these variables will create a `Public` role with the same permissions as the `Gamma` role. However, if this doesn't work, you might need to create it manually. 
 
@@ -34,6 +35,10 @@ Once added, restart Superset. You should find a role named `Public` in the list 
 > **Note:**  
 > If the `Public` role is created without any permissions, delete this role, copy the `Gamma` role, and rename it to `Public`.
 
+
+{{< in-line-ad >}}
+
+
 ### Adding Dataset Permissions
 
 To add dashboard permissions, you need to add dataset permissions to the public role. Type `id` in the search bar in permissions to get a list of all datasets. See the screenshot below:
@@ -47,6 +52,8 @@ Once the permissions are added, open the dashboard, click on the three horizonta
 ### Embedding the Dashboard
 
 Create an `index.html` file in a folder and copy the following code, replacing the URL with the one copied in the previous step:
+
+{{< in-line-ad >}}
 
 ```html
 <iframe src="REPLACE_YOUR_URL_HERE" height="90%" width="90%" title="Iframe Example"></iframe>

@@ -53,6 +53,8 @@ This method is not foolproof, and I do not support modifying files provided by S
 
 To change the loading icon, replace the original loading icon available at `superset/superset/static/assets/images/loading.gif`. Note the name should be the same as Superset expects the loading file to be here.
 
+{{< in-line-ad >}}
+
 ### Setting Up Custom Color Theme
 `THEME_OVERRIDES` is used for adding a custom theme to Superset. Example code for "My theme" custom scheme:
 
@@ -95,5 +97,7 @@ THEME_OVERRIDES = {
     }
 }
 ```
+{{< in-line-ad >}}
+
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/shantanukhond)

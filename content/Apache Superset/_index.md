@@ -26,7 +26,7 @@ Superset can query data from any SQL-speaking datastore or data engine (such as 
 - Oracle
 - And more!
 
-
+{{< in-line-ad >}}
 
 Remember, Superset is all about making data exploration delightful and accessible. Happy charting! 🚀
 

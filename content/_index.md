@@ -36,7 +36,7 @@ Please note this is not Official documentation and prepared as I am exploring th
 If you have suggestions or want any video added to the list, please fill out the form. Note that this is not restricted to Superset. If you want videos on ETL or reporting tools like Power BI, you can ask, but we will prioritize Superset until we complete the entire playlist.
 {{< /notice >}}
 
-
+{{< in-line-ad >}}
 
 &nbsp;
 &nbsp;

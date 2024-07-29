@@ -14,7 +14,7 @@ Chromium headless or firefox is necessary to get alerts and reports running as e
 
 To get Alerts and reports working. We need SMTP creds, and chrome or firefox should be installed. For this tutorial I am using chrome. 
 
-
+{{< in-line-ad >}}
 
 1. In Superset Config file i.e. `superset_config.py` if you already have `FEATURE_FLAGS` then add `"ALERT_REPORTS": True` it should look something like shown below. If you don't have just copy entire thing and put it in `superset_config.py`
 
@@ -99,6 +99,8 @@ To get Alerts and reports working. We need SMTP creds, and chrome or firefox sho
     # This is the link sent to the recipient. Change to your domain, e.g. https://superset.mydomain.com
     WEBDRIVER_BASEURL_USER_FRIENDLY = "http://localhost:8088"
     ```
+
+{{< in-line-ad >}}
 
 3.  Restart Superset using (assuming you have service and has same name as mine i.e. superset)
 

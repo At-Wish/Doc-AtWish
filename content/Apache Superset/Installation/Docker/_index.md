@@ -22,7 +22,10 @@ weight = 3
     ```
     cd superset
     ```
-3. Create a dir I am calling it to_be_copied and create following directory structure in it
+
+{{< in-line-ad >}}
+
+1. Create a dir I am calling it to_be_copied and create following directory structure in it
     ```
     - to_be_copied_into_assets
         - {your_project_}images
@@ -30,15 +33,18 @@ weight = 3
             - favicon.png  
     ```
 
-4. Open `Dockerfile` find `WORKDIR /app` for me it is on line 65 (In future it might change). Add following code below it
+2. Open `Dockerfile` find `WORKDIR /app` for me it is on line 65 (In future it might change). Add following code below it
     ```
     COPY --chown=superset:superset to_be_copied_into_assets /app/superset/static/assets
     ```
 
-5. Creating docker image using following command
+3. Creating docker image using following command
     ```
     docker build -t shan-superset .
     ```
 
-3. Need to do few changes to get our image running open `docker-compose-non-dev.yml` 
+4. Need to do few changes to get our image running open `docker-compose-non-dev.yml` 
     and change image name to shan-superset
+
+
+{{< in-line-ad >}}

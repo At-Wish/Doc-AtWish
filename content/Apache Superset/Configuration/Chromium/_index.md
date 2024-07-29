@@ -27,6 +27,8 @@ weight = 3
     sudo apt -f install
     ```    
 
+{{< in-line-ad >}}
+
 3. Install the ChromeDriver:
 
     The ChromeDriver is a separate executable that WebDriver uses to control Chrome. You need to install it separately:
@@ -56,6 +58,8 @@ weight = 3
     ``` 
 
     Adjust the path as necessary based on where ChromeDriver is installed on your system.
+
+{{< in-line-ad >}}
 
 6. Configure Chrome for Headless Mode:
 
