@@ -1,4 +1,4 @@
-baseURL = 'https://docs.shantanukhond.me/'
+baseURL = 'https://atwish.org/'
 languageCode = 'en-us'
 title = 'Documentation At Your Wish'
 theme = ['hugo-theme-relearn-main','hugo-notice']
