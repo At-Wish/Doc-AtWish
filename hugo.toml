@@ -8,13 +8,14 @@ sectionPagesMenu = 'main'
 
 
 [params]
-  favicon="lws.png"
+
 
   [[params.themeVariant]]
     identifier = 'zen-light'
 
-  [[params.themeVariant]]
-    identifier = 'zen-dark'
+  
+[params.meta]
+  favicon = false
 
 [markup.goldmark.parser.attribute]
 block = true # default is false

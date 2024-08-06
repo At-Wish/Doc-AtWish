@@ -7,7 +7,13 @@
     <loc>http://localhost:1313/apache-superset/installation/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/keycloak/installation/java/_index./index.html</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/apache-superset/customization/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/keycloak/index.html</loc>
   </url>
   <url>
     <loc>http://localhost:1313/apache-superset/configuration/celery-workers--beat/index.html</loc>
@@ -41,6 +47,9 @@
   </url>
   <url>
     <loc>http://localhost:1313/categories/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/keycloak/installation/index.html</loc>
   </url>
   <url>
     <loc>http://localhost:1313/tags/index.html</loc>

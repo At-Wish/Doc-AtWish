@@ -15,7 +15,8 @@ Link to youtube channel where you can find youtube videos [YouTube Channel](http
 
 ##### Currently we have documentation for following
 1. [Apache Superset]({{< ref "/apache-superset" >}})
-2. Valkey (Under development)
+2. [Keycloak]({{< ref "/keycloak" >}})
+3. Valkey (Under development)
    
 
 {{< notice warning >}}

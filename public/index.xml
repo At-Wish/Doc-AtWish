@@ -3,7 +3,7 @@
   <channel>
     <title>Documentation At Your Wish</title>
     <link>http://localhost:1313/index.html</link>
-    <description>📊 Learn Reporting, SQL, Coding, and DataViz - Resources for YouTube Channel Welcome to the world of engineering ⚙️! Here you will find unofficial documentation for the tools like Apache Superset that you can follow along with videos I created. The documentation is tested and written to make it easy to follow through.&#xA;Link to youtube channel where you can find youtube videos YouTube Channel&#xA;Currently we have documentation for following Apache Superset Valkey (Under development) Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools.</description>
+    <description>📊 Learn Reporting, SQL, Coding, and DataViz - Resources for YouTube Channel Welcome to the world of engineering ⚙️! Here you will find unofficial documentation for the tools like Apache Superset that you can follow along with videos I created. The documentation is tested and written to make it easy to follow through.&#xA;Link to youtube channel where you can find youtube videos YouTube Channel&#xA;Currently we have documentation for following Apache Superset Keycloak Valkey (Under development) Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -13,6 +13,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-superset/index.html</guid>
       <description>A Modern Data Exploration and Visualization Platform Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Apache Superset is an open-source business intelligence and data visualization platform. It empowers users to explore, visualize, and share insights from their data, providing a user-friendly interface for crafting compelling dashboards and reports.</description>
+    </item>
+    <item>
+      <title>Keycloak</title>
+      <link>http://localhost:1313/keycloak/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/keycloak/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Valkey</title>
+      <link>http://localhost:1313/valkey/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/valkey/index.html</guid>
+      <description>Coming Soon… </description>
     </item>
   </channel>
 </rss>
