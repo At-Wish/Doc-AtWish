@@ -14,8 +14,10 @@ sectionPagesMenu = 'main'
     identifier = 'zen-light'
 
   
-[params.meta]
-  favicon = false
+  [[params.meta]]
+    description = "A place where you will find documentation as you wish it would be!"
+    Author = "Shantanu Khond"
+    
 
 [markup.goldmark.parser.attribute]
 block = true # default is false

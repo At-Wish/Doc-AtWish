@@ -31,6 +31,9 @@
     <loc>http://localhost:1313/apache-superset/installation/pipy/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/valkey/index.html</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/apache-superset/installation/wsl/index.html</loc>
   </url>
   <url>
