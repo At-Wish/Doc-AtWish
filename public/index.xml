@@ -19,7 +19,7 @@
       <link>http://localhost:1313/keycloak/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/keycloak/index.html</guid>
-      <description></description>
+      <description>Unlock Seamless Security with Keycloak 🔐🔑 Keycloak is an open source identity and access management tool. Keycloak simplifies security by providing single sign-on (SSO) capabilities for web apps and RESTful web services. Its goal is to make security straightforward, allowing application developers to secure their deployed apps and services within their organization&#xA;keycloak’s official page https://www.keycloak.org/ keycloak’s official documentation https://www.keycloak.org/documentation Keycloak’s github link https://github.com/keycloak/keycloak Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools.</description>
     </item>
     <item>
       <title>Valkey</title>
