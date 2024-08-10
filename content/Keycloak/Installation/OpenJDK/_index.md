@@ -108,7 +108,7 @@ Make sure your machine or container platform can provide sufficient memory and C
 	[Service]
 	PIDFile = /app/keycloak/keycloak-webserver.PIDFile
 	WorkingDirectory = /app/keycloak
-	ExecStart = /app/superset/run_keycloak.sh
+	ExecStart = /app/keycloak/run_keycloak.sh
 	ExecStop = /bin/kill -s TERM $MAINPID
 
 
