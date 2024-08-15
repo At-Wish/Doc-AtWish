@@ -15,6 +15,13 @@
       <description>Methods to setup Apache Superset To setup apache superset there are multiple ways. Please select appropriate way to set up from below&#xA;Docker based installation This includes installation of superset on docker container using docker compose. To run as it is you will need docker installed. If you want to customize docker image then you must have a strong compute with at-least 16GB of ram to build UI using npm.</description>
     </item>
     <item>
+      <title>Upgrading</title>
+      <link>http://localhost:1313/apache-superset/upgrading/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/apache-superset/upgrading/index.html</guid>
+      <description>Upgrading superset to latest version To upgrade superset please select the installation type you have</description>
+    </item>
+    <item>
       <title>Customization</title>
       <link>http://localhost:1313/apache-superset/customization/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -2,6 +2,7 @@
 archetype = "default" 
 title = "Apache Superset" 
 weight = 1 
+keywords     = "Apache Superset documentation, Apache Superset, Superset, Open source reporting, Shantanu Khond, At wish, Apache superset installation"
 +++
 
 

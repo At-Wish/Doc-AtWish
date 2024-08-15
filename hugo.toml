@@ -8,6 +8,7 @@ sectionPagesMenu = 'main'
 
 
 [params]
+  Description = "Open source tools documentation written after trying step by step with Youtube videos. Apache Superset documentation. Keycloak documentation. Valkey documentation"
 
 
   [[params.themeVariant]]
