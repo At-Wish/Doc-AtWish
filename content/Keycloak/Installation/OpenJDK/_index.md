@@ -3,6 +3,8 @@
 archetype = "default" 
 title = "OpenJDK" 
 weight = 1
+description = "How to install KeyCloak with PostgreSQL java custom theme"
+
 +++
 
 ## Installing Keycloak with OpenJDK for production env with PostgreSQL in Ubuntu/Debian 

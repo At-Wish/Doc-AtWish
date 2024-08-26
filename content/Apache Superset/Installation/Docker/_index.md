@@ -46,5 +46,15 @@ keywords     = "Apache Superset documentation, Apache Superset, Superset, Open s
 4. Need to do few changes to get our image running open `docker-compose-non-dev.yml` 
     and change image name to shan-superset
 
+5. Once done lets try to run it using
+   ```
+   docker compose -f docker-compose-non-dev.yml up
+   ```
+   
+6. Check the logs and check if everything is running fine you can use `-d` flag as shown below.
+   ```
+   docker compose -f docker-compose-non-dev.yml up -d
+   ```
+ 
 
 {{< in-line-ad >}}

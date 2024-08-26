@@ -16,6 +16,9 @@
     <loc>http://localhost:1313/apache-superset/customization/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/keycloak/installation/docker/index.html</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/keycloak/index.html</loc>
   </url>
   <url>
@@ -53,9 +56,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/categories/index.html</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/keycloak/installation/docker/index.html</loc>
   </url>
   <url>
     <loc>http://localhost:1313/keycloak/installation/index.html</loc>
