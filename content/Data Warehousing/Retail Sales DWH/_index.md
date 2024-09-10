@@ -14,4 +14,18 @@ We will be using Microsoft's famous AdventureWorks OLTP database with MS-SQL ser
 
 {{< figure src="/images/DWH/AdvWorksOLTPSchemaVisio.png" title="Adventure Works OLTP Schema" >}}
 
-Database is divided into 6 schemas 
+Before we begin lets understand what business needs from the reports. Using this data we can build following reports.
+1.  Sales and Revenue Reports:
+1.  Customer Segmentation Reports
+1.  Product Performance Reports
+1.  Market Basket Analysis Reports
+1.  Promotion and Campaign Reports
+1.  Store Performance Report
+1.  Forecasting and Demand Planning Reports
+1.  Supply Chain and Logistics Reports
+1.  Inventory Reports
+ etc....
+
+If we consider above reports except last two reports all other can be built using Sales data. So for this specific tutorial lets assume business came to us and asked that they need warehouse to perform Sales Analysis as in next chapter we will be focusing on Supply chain specifically.
+
+Lets move to sales analysis. In above schema **SalesOrderHeader** is the core sales fact table. most of our discussion is going to be around the facts and dimension of this table. Lets deep dive in using the steps mentioned in the **Data WarehouseETL Toolkit** book. 
