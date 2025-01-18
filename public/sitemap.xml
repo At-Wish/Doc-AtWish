@@ -79,6 +79,9 @@
     <loc>http://localhost:1313/apache-superset/beautifying-visuals/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/apache-superset/custom-visuals/index.html</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/categories/index.html</loc>
   </url>
   <url>

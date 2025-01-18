@@ -56,5 +56,12 @@
       <guid>http://localhost:1313/apache-superset/beautifying-visuals/index.html</guid>
       <description>Beautifying Apache Superset Visuals Such as Card visual, table etc.</description>
     </item>
+    <item>
+      <title>Running in Dev Mode</title>
+      <link>http://localhost:1313/apache-superset/custom-visuals/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/apache-superset/custom-visuals/index.html</guid>
+      <description>Running Apache Superset in Development Mode As we want to customize apache superset and or to develop custom visuals we first need to run Apache Superset in development mode to quickly see the changes and modify the code.&#xA;Clone the Apache Superset We first need to clone the apache superset let do that first. I am still going to use 4.0&#xA;git clone --depth=1 -b 4.0 https://github.com/apache/superset.gitMove inside Superset directory</description>
+    </item>
   </channel>
 </rss>
