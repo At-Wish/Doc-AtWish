@@ -6,6 +6,11 @@ keywords     = "Apache Superset documentation, Apache Superset, Superset, Open s
 description = "Beautifying Apache Superset Table Visual"
 +++
 
+## YouTube Video
+
+#### Youtube Video To Follow
+{{< youtube "https://youtu.be/ZTCgoH3Np8E" >}}
+
 ## Beautifying Table visual in Apache Superset
 
 {{< figure src="/images/superset/assets/images/beautified_table.png" title="Beautified Apache Superset Table" >}}
