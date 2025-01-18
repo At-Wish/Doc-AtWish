@@ -3,7 +3,7 @@
   <channel>
     <title>Apache Superset :: Documentation At Your Wish</title>
     <link>http://localhost:1313/apache-superset/index.html</link>
-    <description>A Modern Data Exploration and Visualization Platform Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Apache Superset is an open-source business intelligence and data visualization platform. It empowers users to explore, visualize, and share insights from their data, providing a user-friendly interface for crafting compelling dashboards and reports.</description>
+    <description>A Modern Data Exploration and Visualization Platform Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Apache Superset is an open-source business intelligence and data visualization platform. It empowers users to explore, visualize, and share insights from their data, providing a user-friendly interface for crafting compelling dashboards and reports. Whether you’re a data analyst, data engineer, or business user, Superset offers a range of features to enhance your data exploration journey:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/apache-superset/index.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +26,7 @@
       <link>http://localhost:1313/apache-superset/customization/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-superset/customization/index.html</guid>
-      <description>Superset Customization We will be configuring the following (more will be added as I explore):&#xA;Superset Customization Setting Up App Name Setting Up Logo Setting Up Favicon Icon Changing Loading GIF Setting Up Custom Color Theme Setting Up App Name Setting up the app name is easy and can be done by adding the following constant in the superset_config.py file:&#xA;APP_NAME = &#34;My Reporting Application&#34;Setting Up Logo To change the logo, place your logo in the /app/superset/superset_env/lib/python3.</description>
+      <description>Superset Customization We will be configuring the following (more will be added as I explore):&#xA;Superset Customization Setting Up App Name Setting Up Logo Setting Up Favicon Icon Changing Loading GIF Setting Up Custom Color Theme Setting Up App Name Setting up the app name is easy and can be done by adding the following constant in the superset_config.py file:&#xA;APP_NAME = &#34;My Reporting Application&#34;Setting Up Logo To change the logo, place your logo in the /app/superset/superset_env/lib/python3.8/site-packages/superset/static/assets/images/your_app_name path, and copy the URL from static/assets/images/your_app_name. Then, paste it below. Along with the logo, configure the route when clicked on the logo and the hover text. You can also add any subheading or branding if necessary.</description>
     </item>
     <item>
       <title>Configuration</title>
@@ -47,7 +47,14 @@
       <link>http://localhost:1313/apache-superset/alerts-and-reports/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-superset/alerts-and-reports/index.html</guid>
-      <description>Alerts and Reports With Superset Note&#xD;Chromium headless or firefox is necessary to get alerts and reports running as expected as well Celery Redis Should be installed and configured. We have documentation you can refer to [Chromium Configuration] and [apache-superset/configuration/celery-workers--beat/] Thank you!&#xD;To get Alerts and reports working. We need SMTP creds, and chrome or firefox should be installed. For this tutorial I am using chrome.&#xA;In Superset Config file i.</description>
+      <description>Alerts and Reports With Superset Note&#xD;Chromium headless or firefox is necessary to get alerts and reports running as expected as well Celery Redis Should be installed and configured. We have documentation you can refer to [Chromium Configuration] and [apache-superset/configuration/celery-workers--beat/] Thank you!&#xD;To get Alerts and reports working. We need SMTP creds, and chrome or firefox should be installed. For this tutorial I am using chrome.</description>
+    </item>
+    <item>
+      <title>Beautifying Visuals</title>
+      <link>http://localhost:1313/apache-superset/beautifying-visuals/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/apache-superset/beautifying-visuals/index.html</guid>
+      <description>Beautifying Apache Superset Visuals Such as Card visual, table etc.</description>
     </item>
   </channel>
 </rss>
