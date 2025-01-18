@@ -3,7 +3,7 @@
   <channel>
     <title>Documentation At Your Wish</title>
     <link>http://localhost:1313/index.html</link>
-    <description>📊 Learn Reporting, SQL, Coding, and DataViz - Resources for YouTube Channel Welcome to the world of engineering ⚙️! Here you will find unofficial documentation for the tools like Apache Superset that you can follow along with videos I created. The documentation is tested and written to make it easy to follow through.&#xA;Link to youtube channel where you can find youtube videos YouTube Channel&#xA;Currently we have documentation for following Apache Superset Keycloak Valkey (Under development) Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you! 🎥 Planned Videos </description>
+    <description>📊 Learn Reporting, SQL, Coding, and DataViz - Resources for YouTube Channel Welcome to the world of engineering ⚙️! Here you will find unofficial documentation for the tools like Apache Superset that you can follow along with videos I created. The documentation is tested and written to make it easy to follow through.&#xA;Link to youtube channel where you can find youtube videos YouTube Channel&#xA;Currently we have documentation for following Apache Superset Keycloak Valkey (Under development) Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -12,35 +12,35 @@
       <link>http://localhost:1313/apache-superset/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-superset/index.html</guid>
-      <description>A Modern Data Exploration and Visualization Platform Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Apache Superset is an open-source business intelligence and data visualization platform. It empowers users to explore, visualize, and share insights from their data, providing a user-friendly interface for crafting compelling dashboards and reports. Whether you’re a data analyst, data engineer, or business user, Superset offers a range of features to enhance your data exploration journey:</description>
+      <description>A Modern Data Exploration and Visualization Platform Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Apache Superset is an open-source business intelligence and data visualization platform. It empowers users to explore, visualize, and share insights from their data, providing a user-friendly interface for crafting compelling dashboards and reports.</description>
     </item>
     <item>
       <title>Keycloak</title>
       <link>http://localhost:1313/keycloak/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/keycloak/index.html</guid>
-      <description>Unlock Seamless Security with Keycloak 🔐🔑 Keycloak is an open source identity and access management tool. Keycloak simplifies security by providing single sign-on (SSO) capabilities for web apps and RESTful web services. Its goal is to make security straightforward, allowing application developers to secure their deployed apps and services within their organization&#xA;keycloak’s official page https://www.keycloak.org/ keycloak’s official documentation https://www.keycloak.org/documentation Keycloak’s github link https://github.com/keycloak/keycloak Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Table of contents Installation </description>
+      <description>Unlock Seamless Security with Keycloak 🔐🔑 Keycloak is an open source identity and access management tool. Keycloak simplifies security by providing single sign-on (SSO) capabilities for web apps and RESTful web services. Its goal is to make security straightforward, allowing application developers to secure their deployed apps and services within their organization&#xA;keycloak’s official page https://www.keycloak.org/ keycloak’s official documentation https://www.keycloak.org/documentation Keycloak’s github link https://github.com/keycloak/keycloak Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools.</description>
     </item>
     <item>
       <title>Apache Druid</title>
       <link>http://localhost:1313/apache-druid/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-druid/index.html</guid>
-      <description>Apache Druid Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Install Druid: Installation Guide</description>
+      <description>Apache Druid Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Install Druid: Installation Guide </description>
     </item>
     <item>
       <title>Apache Kafka</title>
       <link>http://localhost:1313/apache-kafka/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/apache-kafka/index.html</guid>
-      <description>Apache Kafka Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;install Kafka: Installation Guide java</description>
+      <description>Apache Kafka Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;install Kafka: Installation Guide java </description>
     </item>
     <item>
       <title>Valkey</title>
       <link>http://localhost:1313/valkey/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/valkey/index.html</guid>
-      <description>Coming Soon…</description>
+      <description>Coming Soon… </description>
     </item>
     <item>
       <title>Data Warehousing</title>
