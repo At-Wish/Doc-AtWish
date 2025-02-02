@@ -4,6 +4,9 @@
     <loc>http://localhost:1313/apache-superset/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/power-bi/custom-visuals/index.html</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/apache-superset/installation/index.html</loc>
   </url>
   <url>
@@ -23,6 +26,12 @@
   </url>
   <url>
     <loc>http://localhost:1313/keycloak/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/apache-airflow/installation/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/apache-airflow/index.html</loc>
   </url>
   <url>
     <loc>http://localhost:1313/apache-druid/index.html</loc>

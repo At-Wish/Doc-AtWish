@@ -22,6 +22,13 @@
       <description>Unlock Seamless Security with Keycloak 🔐🔑 Keycloak is an open source identity and access management tool. Keycloak simplifies security by providing single sign-on (SSO) capabilities for web apps and RESTful web services. Its goal is to make security straightforward, allowing application developers to secure their deployed apps and services within their organization&#xA;keycloak’s official page https://www.keycloak.org/ keycloak’s official documentation https://www.keycloak.org/documentation Keycloak’s github link https://github.com/keycloak/keycloak Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools.</description>
     </item>
     <item>
+      <title>Apache Airflow</title>
+      <link>http://localhost:1313/apache-airflow/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/apache-airflow/index.html</guid>
+      <description>Apache Airflow Warning&#xD;Please note this is not Official documentation and prepared as I am exploring these tools. If you see any issue or any missing content please feel free to correct and create a pull request or you can reach to me on contact@shantanukhond.me. Thank you!&#xD;Install Airflow: Installation Guide </description>
+    </item>
+    <item>
       <title>Apache Druid</title>
       <link>http://localhost:1313/apache-druid/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
