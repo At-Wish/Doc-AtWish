@@ -1,0 +1,121 @@
+.container {
+  font-family: var(--ifm-font-family-base);
+  color: var(--ifm-font-color-base);
+  background-color: var(--ifm-background-color);
+  padding: 4rem 2rem; /* Increased padding around the page */
+  margin: 10px;
+}
+
+.main{
+  margin: 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--ifm-heading-color);
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: var(--ifm-font-color-secondary);
+}
+
+.cta {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  border-radius: var(--ifm-global-radius);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.features {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.featureCard {
+  padding: 1.25rem;
+  background-color: var(--ifm-background-surface-color);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-md);
+  font-size: 1.05rem;
+}
+
+.tools {
+  margin-top: 4rem;
+}
+
+.toolGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.toolCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--ifm-background-surface-color);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-sm);
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+  transition: transform 0.2s;
+}
+
+.toolCard:hover {
+  transform: translateY(-5px);
+}
+
+.toolCard img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.75rem;
+}
+
+.toolCard span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.about, .promo {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.about p, .promo p {
+  font-size: 1.05rem;
+  color: var(--ifm-font-color-base);
+}
+
+.promo a {
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.promo a:hover {
+  text-decoration: underline;
+}

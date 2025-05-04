@@ -1,10 +1,9 @@
-name: Hugo Build and Deploy
+name: Docsours Build and Deploy
 
 on:
   push:
     branches:
-      - main  # Change this to your branch name
-
+      - main 
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,19 +12,22 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          hugo-version: '0.128.1'  # Change to your Hugo version
+          node-version: '18'  
 
-      - name: Build Hugo site
-        run: hugo --minify
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Docusaurus site
+        run: npm run build
 
       - name: Deploy to cPanel via FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0 
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: public/  # Change if your Hugo output directory is different
-          remote-dir: ./  # Change to your cPanel public directory
+          local-dir: build/  # Docusaurus outputs to 'build/'
+          remote-dir: ./     

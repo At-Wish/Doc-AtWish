@@ -1,5 +1,0 @@
-{{- $url := .Get 0 -}}
-{{- $id := replaceRE ".*youtu\\.be/(.*)$" "$1" $url -}}
-<div class="row" style=" margin: auto; min-width: 50%;  padding: 10px;">
-    <iframe  src="https://www.youtube.com/embed/{{ $id }}" frameborder="0" allowfullscreen></iframe>
-</div>
