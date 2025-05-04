@@ -40,6 +40,17 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-42VH65VMD6', // <-- Replace with your ID
+        anonymizeIP: true, // Optional
+      },
+    ],
+  ],
+
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
