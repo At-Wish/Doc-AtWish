@@ -3,7 +3,8 @@ name: Docsours Build and Deploy
 on:
   push:
     branches:
-      - main 
+      - main  # Change if your main branch is named differently
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  
+          node-version: '18'  # Or your preferred Node.js version
 
       - name: Install dependencies
         run: npm install
@@ -30,4 +31,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: build/  # Docusaurus outputs to 'build/'
-          remote-dir: ./     
+          remote-dir: ./     # Change to your cPanel public directory (e.g., public_html)
