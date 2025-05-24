@@ -8,7 +8,7 @@ const Root: React.FC<PropsWithChildren<{}>> = ({ children }) => {
       <Head>
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9396682749552228"
           crossOrigin="anonymous"
         ></script>
       </Head>
