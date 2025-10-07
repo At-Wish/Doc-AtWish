@@ -1,0 +1,125 @@
+{
+  "categories": [
+    {
+      "title": "📊 Reporting & Visualization",
+      "tools": [
+        {
+          "name": "Apache Superset",
+          "status": "available",
+          "logo": "/img/tool_logos/superset.png",
+          "docs": "https://superset.atwish.org",
+          "video": "https://www.youtube.com/playlist?list=PLH1gsHiD7JxiqIz88CGywds8jSMUEMcs6"
+        },
+        {
+          "name": "PowerBI",
+          "status": "comingSoon",
+          "logo": "/img/tool_logos/powerbi.png",
+          "docs": "#",
+          "video": "#"
+        }
+      ]
+    },
+    {
+      "title": "⚙️ Orchestration",
+      "tools": [
+        {
+          "name": "Apache Airflow",
+          "status": "available",
+          "logo": "/img/tool_logos/airflow.jpg",
+          "docs": "https://airflow.atwish.org",
+          "video": "https://www.youtube.com/playlist?list=PLH1gsHiD7Jxj0ZcYp5JFY0hXy-7KNFIGZ"
+        },
+        {
+          "name": "Prefect",
+          "status": "comingSoon",
+          "logo": "/img/tool_logos/prefect.png",
+          "docs": "#",
+          "video": "#"
+        },
+        {
+          "name": "Dagster",
+          "status": "comingSoon",
+          "logo": "/img/tool_logos/dagster.png",
+          "docs": "#",
+          "video": "#"
+        },
+        {
+          "name": "N8N",
+          "status": "comingSoon",
+          "logo": "/img/tool_logos/n8n.png",
+          "docs": "#",
+          "video": "#"
+        }
+      ]
+    },
+    {
+      "title": "📡 Streaming & Messaging",
+      "tools": [
+        {
+          "name": "Apache Kafka",
+          "status": "comingSoon",
+          "logo": "/img/tool_logos/kafka.png",
+          "docs": "#",
+          "video": "#"
+        }
+      ]
+    },
+    {
+      "title": "🔄 ETL & Data Processing",
+      "tools": [
+        {
+          "name": "Apache Spark",
+          "status": "comingSoon",
+          "logo": "/img/tool_logos/spark.png",
+          "docs": "#",
+          "video": "#"
+        },
+        {
+          "name": "Apache Druid",
+          "status": "migrationProgress",
+          "logo": "/img/tool_logos/druid.jpeg",
+          "docs": "#",
+          "video": "#"
+        },
+        {
+          "name": "Talend",
+          "status": "comingSoon",
+          "logo": "/img/tool_logos/talend.png",
+          "docs": "#",
+          "video": "#"
+        },
+        {
+          "name": "Alteryx",
+          "status": "comingSoon",
+          "logo": "/img/tool_logos/alteryx.png",
+          "docs": "#",
+          "video": "#"
+        }
+      ]
+    },
+    {
+      "title": "⚡ Caching",
+      "tools": [
+        {
+          "name": "Valkey",
+          "status": "migrationProgress",
+          "logo": "/img/tool_logos/valkey.png",
+          "docs": "#",
+          "video": "#"
+        }
+      ]
+    },
+    {
+      "title": "🔐 Authentication & Security",
+      "tools": [
+        {
+          "name": "Keycloak",
+          "status": "migrationProgress",
+          "logo": "/img/tool_logos/keycloak.png",
+          "docs": "#",
+          "video": "#"
+        }
+      ]
+    }
+  ]
+}
