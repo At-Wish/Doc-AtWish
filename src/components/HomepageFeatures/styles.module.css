@@ -6,25 +6,58 @@
   margin: 10px;
 }
 
-.main{
+.main {
   margin: 2rem;
+  /* Light mode default */
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .main {
+  background-color: #1a202c;
 }
 
 .hero {
   text-align: center;
   padding: 4rem 2rem;
+  /* Light mode default */
+  background-color: #f8fafc;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .hero {
+  background-color: #1a202c;
 }
 
 .title {
   font-size: 3rem;
   font-weight: bold;
-  color: var(--ifm-heading-color);
+  /* Light mode default */
+  color: #4a5568;
+  transition: color 0.3s ease;
 }
 
-.subtitle {
+/* Dark mode styles */
+:global([data-theme='dark']) .title {
+  color: #ffffff;
+}
+
+.tagline {
   font-size: 1.25rem;
   margin-top: 1rem;
-  color: var(--ifm-font-color-secondary);
+  /* Light mode default */
+  color: #4a5568;
+  transition: color 0.3s ease;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .tagline {
+  color: #a0aec0;
 }
 
 .cta {
@@ -41,6 +74,27 @@
 .features {
   text-align: center;
   margin-top: 3rem;
+  /* Light mode default */
+  background-color: #f8fafc;
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .features {
+  background-color: #1a202c;
+}
+
+.features h2 {
+  /* Light mode default */
+  color: #1a202c;
+  transition: color 0.3s ease;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .features h2 {
+  color: #ffffff;
 }
 
 .featureGrid {
@@ -52,60 +106,279 @@
 
 .featureCard {
   padding: 1.25rem;
-  background-color: var(--ifm-background-surface-color);
   border-radius: var(--ifm-global-radius);
-  box-shadow: var(--ifm-global-shadow-md);
   font-size: 1.05rem;
+  transition: all 0.3s ease;
+  /* Light mode default */
+  background-color: #ffffff;
+  color: #2d3748;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .featureCard {
+  background-color: #2d3748;
+  color: #ffffff;
+  border: 1px solid #4a5568;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .tools {
   margin-top: 4rem;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  /* Light mode default */
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .tools {
+  background-color: #1a202c;
+  border: none;
+}
+
+.tools h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  transition: color 0.3s ease;
+  /* Light mode default */
+  color: #1a202c;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .tools h2 {
+  color: #ffffff;
+}
+
+.toolCategory {
+  margin-bottom: 3rem;
+}
+
+.categoryTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: color 0.3s ease;
+  /* Light mode default */
+  color: #2d3748;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .categoryTitle {
+  color: #ffffff;
 }
 
 .toolGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-  text-align: center;
+  grid-template-columns: repeat(auto-fill, 380px);
+  gap: 2rem;
+  margin-top: 1rem;
+  justify-content: center;
 }
 
 .toolCard {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  background-color: var(--ifm-background-surface-color);
-  border-radius: var(--ifm-global-radius);
-  box-shadow: var(--ifm-global-shadow-sm);
-  text-decoration: none;
-  color: var(--ifm-font-color-base);
-  transition: transform 0.2s;
+  padding: 2rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  min-height: 380px;
+  /* Light mode default */
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  color: #2d3748;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .toolCard {
+  background-color: #2d3748;
+  border: 1px solid #4a5568;
+  color: #ffffff;
+  box-shadow: none;
 }
 
 .toolCard:hover {
-  transform: translateY(-5px);
+  transform: translateY(-2px);
+  border-color: #667eea;
+  /* Light mode hover */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-.toolCard img {
-  width: 48px;
-  height: 48px;
-  margin-bottom: 0.75rem;
+/* Dark mode hover */
+:global([data-theme='dark']) .toolCard:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
-.toolCard span {
-  font-size: 1rem;
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.toolTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  flex: 1;
+  transition: color 0.3s ease;
+  /* Light mode default */
+  color: #1a202c;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .toolTitle {
+  color: #ffffff;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 3rem;
+  margin: 1.5rem 0;
+  min-height: 160px;
+  transition: background-color 0.3s ease;
+  /* Light mode default */
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .logoContainer {
+  background-color: #1a202c;
+  border: none;
+}
+
+.logoContainer img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.cardActions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.actionButton {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
   font-weight: 500;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  /* Light mode default */
+  background-color: #f8fafc;
+  color: #4a5568;
+  border: 1px solid #e2e8f0;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .actionButton {
+  background-color: #4a5568;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+
+.actionButton:hover {
+  background-color: #667eea;
+  border-color: #667eea;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.actionButton.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.statusBadge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.375rem 0.875rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.available {
+  background-color: #10b981;
+  color: #ffffff;
+  border: 1px solid #10b981;
+}
+
+.comingSoon {
+  background-color: #f59e0b;
+  color: #ffffff;
+  border: 1px solid #f59e0b;
+}
+
+.migrationProgress {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: 1px solid #3b82f6;
 }
 
 .about, .promo {
   margin-top: 4rem;
   text-align: center;
+  /* Light mode default */
+  background-color: #f8fafc;
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .about,
+:global([data-theme='dark']) .promo {
+  background-color: #1a202c;
+}
+
+.about h2, .promo h2 {
+  /* Light mode default */
+  color: #1a202c;
+  transition: color 0.3s ease;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .about h2,
+:global([data-theme='dark']) .promo h2 {
+  color: #ffffff;
 }
 
 .about p, .promo p {
   font-size: 1.05rem;
-  color: var(--ifm-font-color-base);
+  /* Light mode default */
+  color: #4a5568;
+  transition: color 0.3s ease;
+}
+
+/* Dark mode styles */
+:global([data-theme='dark']) .about p,
+:global([data-theme='dark']) .promo p {
+  color: #a0aec0;
 }
 
 .promo a {
