@@ -38,9 +38,9 @@
         },
         {
           "name": "Dagster",
-          "status": "comingSoon",
+          "status": "available",
           "logo": "/img/tool_logos/dagster.png",
-          "docs": "#",
+          "docs": "https://dagster.atwish.org/docs/intro/",
           "video": "#"
         },
         {
